@@ -1,5 +1,10 @@
+
 .calculator{
-    margin: 50px auto;
+    /*margin: auto auto;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: black;
     width: 255px;
     height: 380px;
@@ -49,10 +54,8 @@
 }
 
 .backspace{
-    background: url("backspace.png") no-repeat contain;
-    color: grey;
-    background: url("/backspace.png");
-    background-size:100%;
+    font-weight: bold;
+    transform: rotate(180deg);
 }
 
 .bg-orange{
