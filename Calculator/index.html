@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <p>
+                0
+            </p>
+        </div>
+        <div class="line">
+            <button class="button bg-red C" onclick="Clear()">C</button>
+            <button class="button bg-orange operation">%</button>
+            <button class="button bg-orange change">+/-</button>
+            <button class="button bg-orange operation">/</button>
+        </div>
+        <div class="line">
+            <button class="button number">7</button>
+            <button class="button number">8</button>
+            <button class="button number">9</button>
+            <button class="button bg-orange operation">X</button>
+        </div>
+        <div class="line">
+            <button class="button number">4</button>
+            <button class="button number">5</button>
+            <button class="button number">6</button>
+            <button class="button bg-orange operation">-</button>
+        </div>
+        <div class="line">
+            <button class="button number">1</button>
+            <button class="button number">2</button>
+            <button class="button number">3</button>
+            <button class="button bg-orange operation">+</button>
+        </div>
+        <div class="line">
+            <button class="button first number">0</button>
+            <button class="button second fraction">,</button>
+            <button class="button bg-grey backspace third"></button>
+            <button class="button bg-orange fourth result">=</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

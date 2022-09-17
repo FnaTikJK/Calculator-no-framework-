@@ -1,0 +1,68 @@
+.calculator{
+    margin: 50px auto;
+    background-color: black;
+    width: 255px;
+    height: 380px;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.screen{
+    width: auto;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.screen p{
+    height: 100%;
+    text-align: right;
+    font-size: 2rem;
+    margin-top: -2px;
+    margin-bottom: 0px;
+}
+
+.line{
+    height: 60px;
+    display: grid;
+    grid-template-areas: 
+    "first second third fourth";
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    filter: brightness(120%);
+}
+
+.button:active{
+    filter: brightness(90%);
+}
+
+.backspace{
+    background: url("backspace.png") no-repeat contain;
+    color: grey;
+    background: url("/backspace.png");
+    background-size:100%;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-red{
+    background-color: #DC143C;
+}
+
+.bg-grey{
+    background-color: grey;
+}
