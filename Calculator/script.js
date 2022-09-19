@@ -33,6 +33,7 @@ document.querySelector(".calculator").onclick = (event) => {
         else if(classes.contains("operation")){
             if (!operations.includes(screen.textContent.trim())){
                 firstNumber = new Number(screen.textContent.trim());
+                isFractionNumber = false;
             }
             screen.textContent = event.target.textContent;
         }
@@ -50,6 +51,7 @@ document.querySelector(".calculator").onclick = (event) => {
         else if(classes.contains("result")){
             if(firstNumber){
                 secondNumber = new Number(screen.textContent.trim());
+                isFractionNumber = false;
                 switch(operation){
                     case '/':
                         firstNumber = firstNumber/secondNumber;
